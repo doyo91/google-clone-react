@@ -33,7 +33,7 @@
 .home__body {
   flex: 1;
   display: flex;
-  margin-top: 10%;
+  margin-top: 15%;
   flex-direction: column;
 }
 .home__bodyImg {
