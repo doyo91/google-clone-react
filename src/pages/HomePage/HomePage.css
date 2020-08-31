@@ -3,14 +3,13 @@
   flex-direction: column;
   height: 100vh;
 }
-
+/* Header */
 .home__header {
   display: flex;
   justify-content: space-between;
   padding: 10px 25px;
   align-items: center;
 }
-
 .home__header a {
   margin-right: 20px;
   text-decoration: inherit;
@@ -19,9 +18,6 @@
 }
 .home__header a:hover {
   text-decoration: underline;
-}
-
-.home__headerLeft {
 }
 .home__headerRight {
   display: flex;
@@ -33,6 +29,7 @@
   margin-right: 20px;
   opacity: 0.6;
 }
+/* Body */
 .home__body {
   flex: 1;
   display: flex;
