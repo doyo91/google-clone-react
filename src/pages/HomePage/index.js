@@ -6,6 +6,7 @@ import AppsIcon from "@material-ui/icons/Apps";
 
 import { Avatar } from "@material-ui/core";
 import { Search } from "../../components/Search";
+import { Footer } from "../../components/Footer";
 
 export const HomePage = () => {
   return (
@@ -31,6 +32,9 @@ export const HomePage = () => {
         <div className="home__inputContainer">
           <Search />
         </div>
+      </div>
+      <div className="home__footer">
+        <Footer />
       </div>
     </div>
   );

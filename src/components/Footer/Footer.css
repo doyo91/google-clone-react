@@ -1,0 +1,38 @@
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  line-height: 40px;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  color: rgba(0, 0, 0, 0.54);
+}
+.footer__countryInfo {
+  border-bottom: 1px solid #e4e4e4;
+}
+.footer__countryInfo > p {
+  margin-left: 30px;
+  text-align: left;
+}
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__links a {
+  margin-right: 20px;
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: inherit;
+}
+.footer__links a:hover {
+  text-decoration: underline;
+}
+.footer__links a:last-child {
+  margin-right: 0;
+}
+.footer__linksLeft {
+  margin-left: 30px;
+}
+.footer__linksRight {
+  margin-right: 30px;
+}
