@@ -26,8 +26,11 @@ export const SearchPage = () => {
         </Link>
         <div className="searchPage__headerBody">
           <Search hideButtons />
+
+          <div className="searchPage__options"></div>
         </div>
       </div>
+      <div className="searchPage__results">asfdgdsg</div>
     </div>
   );
 };
