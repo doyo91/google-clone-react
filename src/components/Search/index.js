@@ -35,12 +35,21 @@ export const Search = ({ hideButtons = false }) => {
         <MicIcon className="search__inputIcon search__inputIcon--clickable" />
       </div>
       {!hideButtons ? (
-        <div className="search__buttons">
-          <Button type="submit" variant="outlined" onClick={search}>
-            Buscar con Google
-          </Button>
-          <Button variant="outlined">Voy a tener suerte</Button>
-        </div>
+        <>
+          <div className="search__buttons">
+            <Button type="submit" variant="outlined" onClick={search}>
+              Buscar con Google
+            </Button>
+            <Button variant="outlined">Voy a tener suerte</Button>
+          </div>
+          <div className="search__lenguages">
+            <p>Ofrecido por Google en:</p>
+            <Link to="#">English</Link>
+            <Link to="#">català</Link>
+            <Link to="#">galego</Link>
+            <Link to="#">euskara</Link>
+          </div>
+        </>
       ) : (
         <div className="search__buttons ">
           <Button
@@ -56,13 +65,6 @@ export const Search = ({ hideButtons = false }) => {
           </Button>
         </div>
       )}
-      <div className="search__lenguages">
-        <p>Ofrecido por Google en:</p>
-        <Link to="#">English</Link>
-        <Link to="#">català</Link>
-        <Link to="#">galego</Link>
-        <Link to="#">euskara</Link>
-      </div>
     </div>
   );
 };
